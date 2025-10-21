@@ -1,0 +1,12 @@
+
+
+## Plantilla breve CRAFTER (para copiar/pegar)
+
+**Contexto:** [curso, nivel, tema, restricciones reales]  
+**Rol:** Actúa como [rol docente/experto] en [área].  
+**Artefacto:** Genera [plan/actividades/rúbrica] con [n requisitos concretos].  
+**Formato:** Entrega en [secciones/tablas], longitud [x], idioma [es].  
+**Tono:** [claro, inclusivo, para público no experto/expertos].  
+**Evaluación:** Éxito si cumple: [criterios medibles].  
+**Reglas:** No inventes fuentes; si faltan datos, pide aclaraciones; usa tiempos estimados y materiales.  
+

@@ -1,0 +1,72 @@
+---
+format:
+  html:
+    code-overflow: wrap   # 1) GLOBAL: hace wrap en todos los bloques de código
+---
+
+
+
+# CRAFTER aplicado
+Contrastar un **prompt deficiente** vs. un **prompt de calidad** siguiendo la plantilla **CRAFTER**, para pedir a una IA el diseño de una clase sobre **Movimiento Linealmente Acelerado (MLA)**.
+
+---
+
+## Prompt MALO (qué NO pedir)
+
+> **Problemas:** sin contexto, sin audiencia, sin producto específico, sin formato ni criterios de éxito.
+
+```text
+Dame una clase de movimiento linealmente acelerado.
+````
+
+---
+
+## Prompt BIEN (CRAFTER aplicado)
+
+> **Fortalezas:** provee contexto, define el rol, especifica el artefacto, estructura la entrega, fija tono y evaluación, y establece reglas y revisión.
+
+```python
+[C] Contexto y objetivo
+Soy docente de Física en bachillerato (16–18 años). Necesito una clase de 50 minutos sobre Movimiento Linealmente Acelerado (MLA) para estudiantes con nociones básicas de MRU pero sin cálculo. El objetivo es que el estudiantado comprenda y aplique las relaciones entre posición, velocidad, aceleración constante y tiempo, interpretando gráficas y resolviendo problemas sencillos contextualizados (por ejemplo, caída de objetos sin resistencia del aire o un carrito en un riel inclinado suave).
+
+[R] Rol de la IA
+Actúa como diseñador/a instruccional y asesor/a de Física para educación media superior, con enfoque en aprendizaje activo, claridad operativa y evaluación auténtica.
+
+[A] Artefacto esperado
+Genera un **mini plan de clase** con:
+1) **3 actividades progresivas** (activación → práctica guiada → aplicación/transferencia), cada una con objetivo medible, instrucciones claras, materiales, tiempo estimado y producto esperado.
+2) **Rúbrica breve** (3–4 criterios, 3 niveles de desempeño) para evaluar el producto principal.
+3) **Cierre metacognitivo** con 2 preguntas de reflexión y 1 salida-ticket (exit ticket) de 1 minuto.
+4) **Variantes** si solo dispongo de pizarra/rotafolio y calculadoras; y una variante si puedo usar un simulador gratuito (ej., cualquier simulador de cinemática accesible en línea).
+5) **Lista de chequeo** de calidad de la clase (5–7 ítems).
+
+[F] Formato y estructura
+Entrega en **Markdown** con estas secciones y subtítulos:
+- Objetivos de aprendizaje (3, con verbo medible y criterio).
+- Conceptos clave y fórmulas (define símbolos y unidades).
+- Plan de clase (tabla con Actividad, Propósito, Tiempo, Materiales, Instrucciones, Producto).
+- Rúbrica (tabla con Criterio × Niveles: Inicial / Adecuado / Excelente).
+- Cierre y evaluación rápida (preguntas + exit ticket).
+- Adaptaciones (solo pizarra / con simulador).
+- Lista de chequeo (bullets).
+
+[T] Tono y audiencia
+Lenguaje claro, inclusivo y preciso; ejemplos cotidianos; evita tecnicismos innecesarios; conecta con intuiciones físicas y lectura de gráficas. Evita sobrecargar con ecuaciones; prioriza interpretación y sentido físico.
+
+[E] Ejemplos y evaluación (calibración)
+Incluye **un ejemplo resuelto** paso a paso (numérico sencillo) y **un mini-ejercicio** de práctica con solución. Criterios de éxito: (a) objetivos medibles visibles en actividades; (b) rúbrica alineada al producto; (c) tiempos realistas; (d) instrucciones accionables; (e) notación consistente (definir x, v, a, t, Δ).
+
+[R] Reglas y revisión
+- No inventes fuentes; si usas alguna, indícala de forma general (nombre y acceso abierto).
+- Define todas las variables y unidades (SI).
+- Si falta un supuesto (p. ej., sin resistencia del aire), **decláralo** explícitamente.
+- Revisa coherencia entre objetivos, actividades y rúbrica. Si detectas desalineación, propón 1 ajuste.
+- Mantén la duración total en ~50 minutos (±5).
+```
+
+
+## Nota rápida para el/la docente
+
+* **Malo → Bien:** El salto de “hazme una clase” a un **encargo con contexto, producto, formato y criterios** transforma la salida de la IA en un borrador **listo para aula**.
+* **Checklist exprés:** ¿Contexto claro? ¿Artefacto específico? ¿Formato estructurado? ¿Criterios de éxito? ¿Reglas de verificación? Si todo es “sí”, tu prompt está **listo**.
+

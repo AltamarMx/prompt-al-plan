@@ -1,0 +1,29 @@
+## Objetivo general
+
+ Que el/la docente comprenda qué es un LLM y qué es un prompt, y aprenda a estructurar, evaluar e iterar prompts para generar actividades de clase claras, evaluables y ajustadas a su contexto. 
+ 
+ ## Al finalizar podrás: 
+ 
+ - Distinguir, en términos simples, LLM y prompt y sus límites prácticos (gratis vs. de pago). 
+ - Usar una plantilla de prompt (CRAFTER) para obtener productos concretos: plan de clase, actividades y rúbricas. 
+ - Mejorar resultados con ejemplos de “mal vs. bien” y una lista de chequeo. 
+ - Llevarte una metodología y una plantilla reutilizable para diseñar actividades de cualquier tema en minutos. 
+ - Ahorrar tiempo de planeación, elevar la claridad de tus consignas y alinear actividades con objetivos de aprendizaje.
+
+## Puntos fundamentales que se abordarán
+
+- Qué es un LLM y cómo elegir la herramienta (gratis vs. de pago) 
+
+- Anatomía de un buen prompt (CRAFTER) Técnicas de mejora e iteración (“mal → bien”) 
+
+- Aplicación al aula: actividades progresivas con objetivos y rúbricas Buenas prácticas y riesgos (verificación, fuentes, contexto, uso responsable)
+
+
+## Producto final de cada participante
+
+- Prompt-plantilla CRAFTER personalizado para su tema (listo para copiar/pegar en la IA). 
+- Mini plan de clase con 3 actividades progresivas (objetivos medibles, instrucciones, materiales, tiempos). 
+- Rúbrica breve (3–4 criterios) para evaluar el producto del alumnado. 
+- Bitácora de iteración “mal → bien” (versión 1, mejoras aplicadas y versión final del prompt). 
+- Lista de chequeo de calidad de prompts adaptada a su contexto.
+

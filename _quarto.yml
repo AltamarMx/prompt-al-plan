@@ -1,0 +1,43 @@
+lang: es 
+notebook-links: global
+
+project:
+  type: book  
+  output-dir: docs  
+  
+
+book:  
+  title: "Del prompt al plan"
+  # language: es
+  # author: Guillermo Barrios
+  # version: 0.9.1
+  navbar:
+    search: True
+  sidebar:
+    menu: True
+    collapse-level: 1
+    border: true
+    # logo: img/python.png
+    background: "#f8f9fa"
+
+  chapters:
+    - index.qmd
+    # - part: "Definiciones"
+      # chapters: 
+    - 001_definiciones.qmd
+    # - part: "CRAFTER"
+    #   chapters:
+    - 002_CRAFTER.qmd
+    - 003_ejemplo.qmd
+    
+
+format:
+  html: 
+    theme: 
+      light: spacelab
+      dark: slate
+    code-link: true    
+    number-sections: true
+    number-depth: 1
+
+

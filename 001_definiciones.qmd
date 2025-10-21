@@ -1,0 +1,63 @@
+# Definiciones
+Guía breve de términos y parámetros esenciales para trabajar con modelos de lenguaje (LLM) y diseñar prompts claros, evaluables y ajustados al contexto docente.
+
+## Modelo de Lenguaje Grande (LLM)
+Un **LLM** es un modelo estadístico entrenado con grandes cantidades de texto que **predice la siguiente palabra** dadas las anteriores. Puede **redactar, resumir, traducir, clasificar y razonar a nivel práctico** sobre texto, código y, según el modelo, imágenes y archivos.
+
+**Lo que sí hace:** genera borradores, planes, actividades, rúbricas, código y explicaciones a partir de instrucciones.  
+**Lo que no hace:** no “entiende” como una persona ni garantiza verdad absoluta; puede inventar datos (**alucinaciones**).
+
+## Prompt
+El **prompt** es la **instrucción** que das al modelo: contexto + tarea + formato deseado + criterios de calidad. Un buen prompt **reduce ambigüedad** y **define cómo luce el éxito**.
+
+## Roles en la conversación
+- **System** (configuración): reglas generales (“habla en español”, “sé conciso”).  
+- **User** (usuario): instrucciones y datos de entrada.  
+- **Assistant** (modelo): respuesta generada.
+
+## Ventana de contexto y tokens
+- La **ventana de contexto** es la “memoria inmediata” del modelo (lo que puede leer a la vez: tu prompt + adjuntos + su propia respuesta parcial).  
+- Un **token** es una unidad de texto (trozos de palabras). Costos y límites se miden en tokens. **Prompts largos** o **archivos grandes** consumen más tokens y pueden quedar truncados si exceden el límite.
+
+
+
+## Gratis vs. de pago (elección práctica)
+| Aspecto | Gratis | De pago |
+|---|---|---|
+| Límite de uso | Más restricciones | Mayor cuota y estabilidad |
+| Modelos disponibles | A menudo versiones previas | Versiones más capaces/recientes |
+| Velocidad/colas | Variable | Más consistente |
+| Privacidad/controles | Limitados | Mejores opciones empresariales |
+| Costos | $0 | 20 $USD/mes |
+
+
+## CRAFTER: plantilla para prompts de calidad
+- **C — Contexto y objetivo:** curso, nivel, tema, restricciones reales (tiempo, recursos).  
+- **R — Rol de la IA (y del usuario):** “actúa como asesor pedagógico…”.  
+- **A — Artefacto esperado:** plan de clase, 3 actividades, rúbrica breve, etc.  
+- **F — Formato y estructura:** secciones, tablas, rubros, longitud, idioma.  
+- **T — Tono y audiencia:** nivel, registro, inclusivo, accesible.  
+- **E — Ejemplos y Evaluación:** “mal vs. bien”, criterios y métricas de éxito.  
+- **R — Reglas y Revisión:** límites, no inventar fuentes, iterar versión 1→N.
+
+> **Mini-chequeo CRAFTER:** ¿Se entiende el contexto? ¿Está claro el producto? ¿Hay formato y criterios? ¿Incluí ejemplos? ¿Puse reglas y límites?
+
+## Alucinación (hallucination)
+Cuando el modelo **afirma datos inexistentes** (citas, cifras, enlaces). Se mitiga con:  
+1) **pedir fuentes verificables**, 2) **proveer contexto/documentos**, 3) **revisar y corregir**.
+
+## Verificación y fuentes
+- **Triangula** con 2–3 fuentes externas.  
+- **Pide citas con URL/DOI** y revisa que existan.  
+- **No delegues la evaluación**: usa tu rúbrica y criterio.
+
+## Rúbrica (rubric)
+**Matriz de evaluación** con **criterios** (qué observar) y **niveles** (por ejemplo, Insuficiente–Excelente). Permite **evaluar con consistencia** y dar **retroalimentación clara**.
+
+
+
+## Privacidad y datos sensibles
+- **No subas** datos personales de estudiantes o información confidencial si no tienes autorización.  
+- **Anonimiza** ejemplos y casos.  
+- **Revisa** términos de uso de la plataforma que elijas.
+
