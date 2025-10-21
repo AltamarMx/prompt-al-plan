@@ -1,7 +1,14 @@
+---
+format:
+  html:
+    code-overflow: wrap   # 1) GLOBAL: hace wrap en todos los bloques de código
+---
 
 
 ## Plantilla breve CRAFTER (para copiar/pegar)
 
+
+```python
 **Contexto:** [curso, nivel, tema, restricciones reales]  
 **Rol:** Actúa como [rol docente/experto] en [área].  
 **Artefacto:** Genera [plan/actividades/rúbrica] con [n requisitos concretos].  
@@ -9,4 +16,5 @@
 **Tono:** [claro, inclusivo, para público no experto/expertos].  
 **Evaluación:** Éxito si cumple: [criterios medibles].  
 **Reglas:** No inventes fuentes; si faltan datos, pide aclaraciones; usa tiempos estimados y materiales.  
+```
 

@@ -144,7 +144,7 @@
     "href": "002_CRAFTER.html",
     "title": "3  Plantilla breve CRAFTER (para copiar/pegar)",
     "section": "",
-    "text": "Contexto: [curso, nivel, tema, restricciones reales]\nRol: Actúa como [rol docente/experto] en [área].\nArtefacto: Genera [plan/actividades/rúbrica] con [n requisitos concretos].\nFormato: Entrega en [secciones/tablas], longitud [x], idioma [es].\nTono: [claro, inclusivo, para público no experto/expertos].\nEvaluación: Éxito si cumple: [criterios medibles].\nReglas: No inventes fuentes; si faltan datos, pide aclaraciones; usa tiempos estimados y materiales.",
+    "text": "**Contexto:** [curso, nivel, tema, restricciones reales]  \n**Rol:** Actúa como [rol docente/experto] en [área].  \n**Artefacto:** Genera [plan/actividades/rúbrica] con [n requisitos concretos].  \n**Formato:** Entrega en [secciones/tablas], longitud [x], idioma [es].  \n**Tono:** [claro, inclusivo, para público no experto/expertos].  \n**Evaluación:** Éxito si cumple: [criterios medibles].  \n**Reglas:** No inventes fuentes; si faltan datos, pide aclaraciones; usa tiempos estimados y materiales.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Plantilla breve CRAFTER (para copiar/pegar)</span>"
     ]
